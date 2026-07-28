@@ -25,7 +25,7 @@ load and AI that behaves honestly instead of guessing.
 ### [ticketstorm-platform](https://github.com/SujieZong/ticketstorm-platform) — distributed ticketing platform · Go, Node, React, AWS
 - Hit 78.6% vs 19.5% seat-acquisition success in a 1,000-buyer flash sale by fronting an atomic Redis hold with a virtual waiting room instead of a contended Postgres row lock.
 - Held zero oversell under contention and across a forced Redis failover; drained a 78-message backlog after a consumer outage with no lost events (CQRS, read lag p50 71 ms).
-- Shipped a 6-service Go/Node/React stack to AWS via Terraform (ECS, RDS, ElastiCache, SQS/SNS) with CPU autoscaling (1→2); added a Gemini tool-use concierge and pgvector search.
+- Shipped a 6-service Go/Node/React stack to AWS via Terraform (ECS, RDS, ElastiCache, SQS/SNS) with CPU autoscaling ; added a Gemini tool-use concierge and pgvector search.
 
 ### [silero-vad-dysarthric-adapter](https://github.com/SujieZong/silero-vad-dysarthric-adapter) — parameter-efficient speech-model adaptation · Python, PyTorch
 - Lifted dysarthric-speech VAD F1 from 0.43 to 0.80 and cut false-rejection from 0.71 to 0.24 (leave-one-speaker-out, TORGO).
