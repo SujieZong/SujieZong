@@ -1,6 +1,6 @@
 # Hi, I'm Sujie Zong
 
-**AI + full-stack engineer** (with a solid ops streak). I build end-to-end
+**AI + full-stack engineer**. I build end-to-end
 products: an LLM/agent brain, a real backend and UI around it, and the cloud
 infrastructure to ship and run it. I care about systems that stay correct under
 load and AI that behaves honestly instead of guessing.
@@ -35,4 +35,4 @@ load and AI that behaves honestly instead of guessing.
 ---
 
 ## Reach me
-zong.s@northeastern.edu · [LinkedIn](https://www.linkedin.com/in/sujie-zong-58321514b) · [github.com/SujieZong](https://github.com/SujieZong)
+sjzong1016@outlook.com · [LinkedIn](https://www.linkedin.com/in/sujie-zong-58321514b) · [github.com/SujieZong](https://github.com/SujieZong)
