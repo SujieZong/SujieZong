@@ -1,4 +1,4 @@
-# Hi, I'm Sujie Zong
+# Hi, I'm Sujie Zong :)
 
 **AI + full-stack engineer**. I build end-to-end
 products: an LLM/agent brain, a real backend and UI around it, and the cloud
