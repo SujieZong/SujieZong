@@ -5,12 +5,13 @@ products: an LLM/agent brain, a real backend and UI around it, and the cloud
 infrastructure to ship and run it. I care about systems that stay correct under
 load and AI that behaves honestly instead of guessing.
 
-**Open to AI/ML, full-stack, and backend engineering roles.**
+**Open to AI/ML, robotics, full-stack, and backend engineering roles.**
 
-`Python` · `Go` · `JavaScript/Node` · `React` · `SQL` · `LangGraph` · `AWS` · `Terraform` · `Docker`
+`Python` · `Go` · `JavaScript/Node` · `React` · `SQL` · `LangGraph` · `ROS 2` · `AWS` · `Terraform` · `Docker`
 
 - **AI**: agentic RAG, tool-use agents, grounded and cited generation, embeddings / pgvector, PEFT
 - **Full-stack**: React frontends, Node/Express and Go services, event-driven backends, CQRS, idempotency
+- **Robotics**: ROS 2, real-time perception and control, visual servoing, sim-to-real on physical robots
 - **Ops**: AWS (ECS, RDS, SQS/SNS, ElastiCache), Terraform, Docker, CI/CD, load and chaos testing
 
 ---
@@ -31,6 +32,11 @@ load and AI that behaves honestly instead of guessing.
 - Lifted dysarthric-speech VAD F1 from 0.43 to 0.80 and cut false-rejection from 0.71 to 0.24 (leave-one-speaker-out, TORGO).
 - Trained a 193-parameter adapter head on a frozen 20M-hour Silero encoder (<400 trainable params, ~32 KB checkpoints) instead of retraining.
 - Guaranteed zero train/eval leakage via replayed pre-computed probabilities, manual labels held out for test, per-microphone heads across 8 LOSO checkpoints.
+
+### [cyber-cat-pursuit](https://github.com/SujieZong/cyber-cat-pursuit) — vision-only air–ground robot pursuit · ROS 2 Humble, Python
+- Made a TurtleBot 4 chase a Crazyflie drone with no depth sensor, substituting the marker's apparent size for metric range to hold a stable standoff from a single RGB camera.
+- Eliminated several-times-per-second SEARCH↔CHASE thrash on real hardware with a 10-frame rolling vote using split enter/exit thresholds (≥6 in, <2 out) instead of per-frame transitions.
+- Cut false captures to zero by moving the marker to a hue absent from the room and gating capture on two independent signals — a diagnosis that beat further detector tuning.
 
 ---
 
